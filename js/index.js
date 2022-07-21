@@ -32,10 +32,17 @@ for (let letter of hacker2Reverse) {
 //3.3
 for (let letterPosition  = 0; letterPosition < hacker2.length; letterPosition++ ) {
     if (hacker1[letterPosition] > hacker2[letterPosition]) {
-        console.log("The driver's name goes first.")
+        console.log("The driver's name goes first.");
+        break;
     } else if (hacker2[letterPosition] > hacker1[letterPosition]) {
-        console.log("Yo, the navigator goes first definitely.")
+        console.log("Yo, the navigator goes first definitely.");
+        break;
     } else if (hacker1[letterPosition] === hacker2[letterPosition]) {
         console.log ("What?! You both have the same name?")
+        continue;
     } 
 }
+
+//Bonus 1
+
+//Bonus 2
